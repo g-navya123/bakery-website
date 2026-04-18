@@ -1,0 +1,143 @@
+/* 🌸 BODY STYLE */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    /* Background Image */
+    background-image: url(https://as1.ftcdn.net/v2/jpg/19/57/93/56/1000_F_1957935695_Y1IjSEBepTiFwGconkJluI5xzKjP3aQZ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* 🧁 HEADINGS */
+h1 {
+    color: #fff;
+    margin-top: 20px;
+    text-shadow: 2px 2px 6px black;
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* 🍞 NAVBAR */
+nav {
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #ffebcd;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff69b4;
+}
+
+/* 📝 TEXT */
+p {
+    font-size: 18px;
+    margin: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* 🖼 IMAGE */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* 📩 INPUT */
+input, textarea {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* 🔘 BUTTON */
+button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff69b4, #ff1493);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff1493, #ff69b4);
+}
+
+/* 🍰 SERVICES */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* 🎂 CARD STYLE */
+.service-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px); /* glass effect */
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card h3 {
+    color: #ffebcd;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+
+/* ✨ HOVER EFFECT */
+.service-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* 🍩 MENU BUTTONS */
+.menu-buttons {
+    margin: 20px;
+}
+
+.menu-buttons button {
+    margin: 10px;
+}
+
+
+footer {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+
